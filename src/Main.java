@@ -12,7 +12,7 @@ public class Main {
         productsArray[4] = new Product("Realme 16T", "26.05.2026",
                 "BBK Electronics", "China", 5599, true);
 
-        for (Product product: productsArray){
+        for (Product product : productsArray) {
             System.out.println();
             product.showInfo();
         }

@@ -15,15 +15,15 @@ public class Product {
         this.isBooked = isBooked;
     }
 
-    public void showInfo(){
+    public void showInfo() {
         System.out.println("Наименование: " + this.name);
         System.out.println("Дата производства: " + this.productionDate);
         System.out.println("Производитель: " + this.manufacturer);
         System.out.println("Страна: " + this.country);
         System.out.println("Цена: " + this.price);
-        if (this.isBooked){
+        if (this.isBooked) {
             System.out.println("Товар забронирован: Да");
-        }else {
+        } else {
             System.out.println("Товар забронирован: Нет");
         }
     }
