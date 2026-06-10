@@ -33,6 +33,7 @@ public class Cat extends Animal {
 
     public void feedCat(int amount) {
         if (amountOfFood - amount < 0) {
+            System.out.println(this.name + " голоден");
             System.out.println("В мискве недостаточно еды для кота по имени " + this.name + ", в данный момент в ней: " + amountOfFood);
         } else {
             System.out.println(this.name + " сыт");

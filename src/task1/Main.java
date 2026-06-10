@@ -10,7 +10,6 @@ public class Main {
         for (Cat cat : cats) {
             System.out.println();
             cat.feedCat(20);
-            System.out.println(cat.getIsFull());
         }
     }
 }
